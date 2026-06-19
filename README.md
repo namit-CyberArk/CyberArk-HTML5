@@ -14,11 +14,11 @@ Gateway	PSM	TCP	3389, 22, etc.	Gateway → PSM for actual RDP/SSH session traffi
 
 Below Point need be Edit in Script
 ----------------------------------
-CONTAINER_NAME="HTML5"      (Change Name)
+**CONTAINER_NAME="HTML5"    (Change Name)
 NETWORK="cyberark"          (Don't Change)
 HOST_PORT="9443"            (Change Port Number)
 CONTAINER_PORT="8443"       (Don't Port Change)
 CERT_HOST_DIR="/opt/cert"   (Don't Change Path)
-IMAGE="cahtml5gw:14_2_1_13" (Change Version)
+IMAGE="cahtml5gw:14_2_1_13" (Change Version)**
 ----------------------------------
 
